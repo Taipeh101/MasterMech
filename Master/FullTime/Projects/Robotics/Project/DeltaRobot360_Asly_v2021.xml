@@ -1,0 +1,1776 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="04/17/21||09:21:26" using="Simscape Multibody Link Version 7.2" from="SolidWorks 21.3.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="DeltaRobot360_Asly_v2021" uid="DeltaRobot360_Asly_v2021" version="172">
+<AssemblyFile name="DeltaRobot360_Asly_v2021.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="PrismaticJoint_Asly-6" uid="PrismaticJoint_Asly-6" entityUid="PrismaticJoint_Asly" rigid="true">
+<Transform>
+<Rotation>0.4999999999999355 -0.61237243565598165 0.61237243573566003 0.8660254037844759 0.35355339066224239 -0.35355339052421381 -1.1269546407177698e-10 0.70710678118654202 0.7071067811865529</Rotation>
+<Translation>0.064530437329206644 -0.15382049188653293 -0.13328564560387368</Translation>
+</Transform>
+<Instance name="ZWY-104001-1" uid="ZWY-104001-1" entityUid="ZWY-104001*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.10094723489601139 -0.059637093217907194 0.077166571469762482</Translation>
+</Transform>
+</Instance>
+<Instance name="WKM-10-14-1" uid="WKM-10-14-1" entityUid="WKM-10-14*:*Default">
+<Transform>
+<Rotation>7.1869102240266094e-15 1 0 -1 7.1869102240266094e-15 0 0 0 1</Rotation>
+<Translation>0.061447234896011581 -0.025137093217907164 0.10116657146976241</Translation>
+</Transform>
+</Instance>
+<Instance name="ETY-DR-0012-2" uid="ETY-DR-0012-2" entityUid="ETY-DR-0012*:*Default">
+<Transform>
+<Rotation>-1 6.9627121512215498e-15 0 -6.9627121512215498e-15 -1 0 0 0 1</Rotation>
+<Translation>0.088447234896011556 -0.025137093217906997 0.10116657146976243</Translation>
+</Transform>
+</Instance>
+<Instance name="ETY-DR-0010-1" uid="ETY-DR-0010-1" entityUid="ETY-DR-0010*:*Default">
+<Transform>
+<Rotation>-1 6.9648656193859198e-15 0 -6.9756387168032218e-15 -0.99999999999999978 -3.6637359812630166e-15 0 -3.5527136788005009e-15 0.99999999999999989</Rotation>
+<Translation>0.10094723489601168 -0.037137093217906814 0.085166571469762378</Translation>
+</Transform>
+</Instance>
+<Instance name="ZS-104001-WJ200UMA-1" uid="ZS-104001-WJ200UMA-1" grounded="true" entityUid="ZS-104001-WJ200UMA" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 -3.4972025275692431e-15 -0.99999999999999978 0 1 -3.4416913763379853e-15</Rotation>
+<Translation>0.10094723489601139 -0.059637093217907444 0.071166571469762158</Translation>
+</Transform>
+<Instance name="WJ200UMA-01-10-AL-3" uid="WJ200UMA-01-10-AL-3" entityUid="WJ200UMA-01-10-AL" rigid="true">
+<Transform>
+<Rotation>-1 1.3618070646565194e-15 1.4517949907110859e-14 1.3558968892685228e-15 1 1.1102230246251565e-16 -1.4512039730404544e-14 1.6653345369377348e-16 -0.99999999999999978</Rotation>
+<Translation>0.020000000000002183 -0.0090000000000010627 -0.035500000000004223</Translation>
+</Transform>
+<Instance name="WMA-01-10-AL-1" uid="WMA-01-10-AL-1" entityUid="WMA-01-10-AL*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="WRZ-011007-1" uid="WRZ-011007-1" entityUid="WRZ-011007*:*Default">
+<Transform>
+<Rotation>-3.0118501520253982e-16 -1 -1.9841534520669638e-16 1.6653345369377348e-16 -1.7827854855991359e-16 1 -0.99999999999999978 3.2132181318056641e-16 1.1102230246251565e-16</Rotation>
+<Translation>-0.015500000000000017 0.0017500000000000016 0</Translation>
+</Transform>
+</Instance>
+<Instance name="J200UMA-01-10-1" uid="J200UMA-01-10-1" entityUid="J200UMA-01-10*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="WJ200UMA-01-10-AL-4" uid="WJ200UMA-01-10-AL-4" entityUid="WJ200UMA-01-10-AL" rigid="true">
+<Transform>
+<Rotation>-1 1.250784762181079e-15 2.0457643088868371e-14 1.2247610772967958e-15 0.99999999999999989 -1.1102230246251565e-16 -2.0487130553871177e-14 1.1102230246251565e-16 -0.99999999999999989</Rotation>
+<Translation>0.020000000000002884 -0.0090000000000010488 0.035500000000004195</Translation>
+</Transform>
+<Instance name="WMA-01-10-AL-1" uid="WMA-01-10-AL-1" entityUid="WMA-01-10-AL*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="WRZ-011007-1" uid="WRZ-011007-1" entityUid="WRZ-011007*:*Default">
+<Transform>
+<Rotation>-2.8107150568040375e-16 -1 -2.1852885470298305e-16 2.7755575615628914e-16 -1.5816503906362691e-16 1 -0.99999999999999978 3.4143532268977778e-16 1.1102230246251565e-16</Rotation>
+<Translation>-0.015500000000000014 0.0017500000000000154 0</Translation>
+</Transform>
+</Instance>
+<Instance name="J200UMA-01-10-1" uid="J200UMA-01-10-1" entityUid="J200UMA-01-10*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="WJ200UMA-01-10-AL-2" uid="WJ200UMA-01-10-AL-2" entityUid="WJ200UMA-01-10-AL" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.02000000000000271 -0.0090000000000010766 -0.035500000000004306</Translation>
+</Transform>
+<Instance name="WMA-01-10-AL-1" uid="WMA-01-10-AL-1" entityUid="WMA-01-10-AL*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="WRZ-011007-1" uid="WRZ-011007-1" entityUid="WRZ-011007*:*Default">
+<Transform>
+<Rotation>-3.590386228662384e-16 -1 -1.9250516981869977e-16 1.1102230246251565e-16 -2.2937221912291803e-16 1 -0.99999999999999978 2.8488337102626011e-16 1.6653345369377348e-16</Rotation>
+<Translation>-0.015499999999999983 0.0017500000000000016 0</Translation>
+</Transform>
+</Instance>
+<Instance name="J200UMA-01-10-1" uid="J200UMA-01-10-1" entityUid="J200UMA-01-10*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="ZSY-104001-1" uid="ZSY-104001-1" entityUid="ZSY-104001*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="WJ200UMA-01-10-AL-1" uid="WJ200UMA-01-10-AL-1" entityUid="WJ200UMA-01-10-AL" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.020000000000002592 -0.0090000000000010211 0.035500000000004583</Translation>
+</Transform>
+<Instance name="WMA-01-10-AL-1" uid="WMA-01-10-AL-1" entityUid="WMA-01-10-AL*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="WRZ-011007-1" uid="WRZ-011007-1" entityUid="WRZ-011007*:*Default">
+<Transform>
+<Rotation>-3.590386228662384e-16 -1 -1.9250516981869977e-16 1.1102230246251565e-16 -2.2937221912291803e-16 1 -0.99999999999999978 2.8488337102626011e-16 1.6653345369377348e-16</Rotation>
+<Translation>-0.015499999999999983 0.0017500000000000016 0</Translation>
+</Transform>
+</Instance>
+<Instance name="J200UMA-01-10-1" uid="J200UMA-01-10-1" entityUid="J200UMA-01-10*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="ETY-DR-0012-1" uid="ETY-DR-0012-1" entityUid="ETY-DR-0012*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.11344723489601141 -0.025137093217907164 0.10116657146976249</Translation>
+</Transform>
+</Instance>
+<Instance name="WKM-10-14-2" uid="WKM-10-14-2" entityUid="WKM-10-14*:*Default">
+<Transform>
+<Rotation>-1.9250516888812163e-16 -1 0 1 -1.9250516888812163e-16 0 0 0 1</Rotation>
+<Translation>0.14044723489601144 -0.025137093217907192 0.10116657146976252</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="DeltaRobot360_FixedParts_Asly-1" uid="DeltaRobot360_FixedParts_Asly-1" grounded="true" entityUid="DeltaRobot360_FixedParts_Asly" rigid="true">
+<Transform>
+<Rotation>-1 0 -6.9829626776862667e-15 -6.9829626776862667e-15 3.4914813388431334e-15 1 0 1 -3.4914813388431334e-15</Rotation>
+<Translation>-0.19500000003930076 -0.11258330251593063 -0.24957345920800367</Translation>
+</Transform>
+<Instance name="ETY-DR-0013-3" uid="ETY-DR-0013-3" entityUid="ETY-DR-0013*:*Default">
+<Transform>
+<Rotation>0.61237243569581212 0.6123724356958139 0.49999999999995487 0.70710678118654846 -0.7071067811865468 3.6082248300317627e-16 0.35355339059324165 0.35355339059324203 -0.8660254037844648</Rotation>
+<Translation>-0.45001296706855187 0.011656854249492393 -0.011554491924307894</Translation>
+</Transform>
+</Instance>
+<Instance name="ZLW-1040S-G0BW0-D0H1C-AN0A0AA-150-3" uid="ZLW-1040S-G0BW0-D0H1C-AN0A0AA-150-3" entityUid="ZLW-1040S-G0BW0-D0H1C-AN0A0AA-150" rigid="true">
+<Transform>
+<Rotation>-0.49999999999995404 -0.61237243573565969 -0.61237243565596677 -1.1270708888927001e-10 0.70710678118654924 -0.70710678118654569 0.86602540378446513 -0.35355339052422163 -0.35355339066226088</Rotation>
+<Translation>-0.25705915293854398 0.26355492824221 0.076753433861765807</Translation>
+</Transform>
+<Instance name="ZTF-104004-1" uid="ZTF-104004-1" entityUid="ZTF-104004" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 -0.0067376725769593138 0.26000000000000001</Translation>
+</Transform>
+<Instance name="SAXT-104004-1" uid="SAXT-104004-1" entityUid="SAXT-104004*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="SAXT-104002-1" uid="SAXT-104002-1" entityUid="SAXT-104002*:*Default">
+<Transform>
+<Rotation>-1 -1.2051685094386619e-15 0 -1.2051685094386619e-15 1 0 0 0 -1</Rotation>
+<Translation>0 0 0.05199999999999988</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="ZTL-104002-1" uid="ZTL-104002-1" entityUid="ZTL-104002" rigid="true">
+<Transform>
+<Rotation>-1 0 0 0 1 0 0 0 -1</Rotation>
+<Translation>0 -0.0067376725769593415 0.009999999999999995</Translation>
+</Transform>
+<Instance name="SAXT-104001-1" uid="SAXT-104001-1" entityUid="SAXT-104001*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="SAXT-104002-1" uid="SAXT-104002-1" entityUid="SAXT-104002*:*Default">
+<Transform>
+<Rotation>-1 3.0425591884517068e-16 0 3.0425591884517068e-16 1 0 0 0 -1</Rotation>
+<Translation>0 0 0.051999999999999991</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="ZSX-104001-konfig-1" uid="ZSX-104001-konfig-1" entityUid="ZSX-104001-konfig*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="MK-0111 (0_X_B0)-1" uid="MK-0111 (0_X_B0)-1" entityUid="MK-0111 (0_X_B0)" rigid="true">
+<Transform>
+<Rotation>-0.99999999999999989 0 -7.5222990239943958e-16 0 -1 0 -7.5222990239943958e-16 0 0.99999999999999989</Rotation>
+<Translation>-0.030000000000000103 -0.0067376725769593693 0.29999999999999993</Translation>
+</Transform>
+<Instance name="MF-1040-NEMA23-S-1" uid="MF-1040-NEMA23-S-1" entityUid="MF-1040-NEMA23-S" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="ZTY-104004-1" uid="ZTY-104004-1" entityUid="ZTY-104004*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="ZTY-104010-1" uid="ZTY-104010-1" entityUid="ZTY-104010*:*Default">
+<Transform>
+<Rotation>-1.9711839075894555e-16 0 -1 0.99999999999999978 0 -2.3804370705556202e-16 0 -0.99999999999999989 0</Rotation>
+<Translation>0.052000000000000053 0 -0.015000000000000013</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="MOT-AN-S-060-035-060-M-C-AAAC-1" uid="MOT-AN-S-060-035-060-M-C-AAAC-1" entityUid="MOT-AN-S-060-035-060-M-C-AAAC" rigid="true">
+<Transform>
+<Rotation>3.0248197096860974e-16 0 -1 3.3306690738754696e-16 0.99999999999999989 0 0.99999999999999978 -3.3306690738754696e-16 2.77048033084045e-16</Rotation>
+<Translation>0.052000000000000039 0 -0.015000000000000013</Translation>
+</Transform>
+<Instance name="2-1" uid="2-1" entityUid="2*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="1-1" uid="1-1" entityUid="1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="COU-AR-K-080-100-32-32-B-AAAA-1" uid="COU-AR-K-080-100-32-32-B-AAAA-1" entityUid="COU-AR-K-080-100-32-32-B-AAAA*:*Default">
+<Transform>
+<Rotation>-1.0358753249763671e-15 2.838533625480336e-16 -0.99999999999999989 0.98926554709129322 -0.1461289750123641 -1.1204140685979185e-15 -0.1461289750123641 -0.98926554709129322 0</Rotation>
+<Translation>0.023674523555760919 0 -0.014999999999999958</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="ZLW-1040S-G0BW0-D0H1C-AN0A0AA-150-1" uid="ZLW-1040S-G0BW0-D0H1C-AN0A0AA-150-1" entityUid="ZLW-1040S-G0BW0-D0H1C-AN0A0AA-150" rigid="true">
+<Transform>
+<Rotation>1 1.0569832605501559e-10 1.0569450590141e-10 -2.7012565195835547e-15 0.70710678118654702 -0.70710678118654802 -1.4947730497061684e-10 0.70710678118654802 0.70710678118654702</Rotation>
+<Translation>-0.19500000002859 0.26355492824277293 0.18424303979053203</Translation>
+</Transform>
+<Instance name="ZTF-104004-1" uid="ZTF-104004-1" entityUid="ZTF-104004" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 -0.0067376725769592999 0.26000000000000001</Translation>
+</Transform>
+<Instance name="SAXT-104004-1" uid="SAXT-104004-1" entityUid="SAXT-104004*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="SAXT-104002-1" uid="SAXT-104002-1" entityUid="SAXT-104002*:*Default">
+<Transform>
+<Rotation>-1 -1.1960129856155921e-15 0 -1.1960129856187158e-15 1 0 0 0 -1</Rotation>
+<Translation>0 0 0.051999999999999935</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="ZTL-104002-1" uid="ZTL-104002-1" entityUid="ZTL-104002" rigid="true">
+<Transform>
+<Rotation>-1 0 0 0 1 0 0 0 -1</Rotation>
+<Translation>0 -0.0067376725769593415 0.010000000000000002</Translation>
+</Transform>
+<Instance name="SAXT-104001-1" uid="SAXT-104001-1" entityUid="SAXT-104001*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="SAXT-104002-1" uid="SAXT-104002-1" entityUid="SAXT-104002*:*Default">
+<Transform>
+<Rotation>-1 3.027880976292792e-16 0 3.0278809762433008e-16 1 0 0 0 -1</Rotation>
+<Translation>0 0 0.052000000000000005</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="ZSX-104001-konfig-1" uid="ZSX-104001-konfig-1" entityUid="ZSX-104001-konfig*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="MK-0111 (0_X_B0)-1" uid="MK-0111 (0_X_B0)-1" entityUid="MK-0111 (0_X_B0)" rigid="true">
+<Transform>
+<Rotation>-1 0 -7.7132995124416288e-16 0 -1 0 -7.7132995123337994e-16 0 1</Rotation>
+<Translation>-0.0300000000000001 -0.0067376725769593554 0.29999999999999999</Translation>
+</Transform>
+<Instance name="MF-1040-NEMA23-S-1" uid="MF-1040-NEMA23-S-1" entityUid="MF-1040-NEMA23-S" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="ZTY-104004-1" uid="ZTY-104004-1" entityUid="ZTY-104004*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="ZTY-104010-1" uid="ZTY-104010-1" entityUid="ZTY-104010*:*Default">
+<Transform>
+<Rotation>-2.0419038086992958e-16 0 -1 1 0 -2.0419038085292884e-16 0 -1 0</Rotation>
+<Translation>0.052000000000000018 0 -0.015000000000000013</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="MOT-AN-S-060-035-060-M-C-AAAC-1" uid="MOT-AN-S-060-035-060-M-C-AAAC-1" entityUid="MOT-AN-S-060-035-060-M-C-AAAC" rigid="true">
+<Transform>
+<Rotation>3.0244355243270937e-16 0 -1 2.7755575615628914e-16 1 0 1 -2.7755575615628914e-16 3.0244355242278905e-16</Rotation>
+<Translation>0.052000000000000018 0 -0.015000000000000013</Translation>
+</Transform>
+<Instance name="2-1" uid="2-1" entityUid="2*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="1-1" uid="1-1" entityUid="1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="COU-AR-K-080-100-32-32-B-AAAA-1" uid="COU-AR-K-080-100-32-32-B-AAAA-1" entityUid="COU-AR-K-080-100-32-32-B-AAAA*:*Default">
+<Transform>
+<Rotation>-1.0970400099961797e-15 2.3500239613213771e-16 -1 0.98926554709129322 -0.14612897501236405 -1.1196045449013092e-15 -0.14612897501236405 -0.98926554709129322 0</Rotation>
+<Translation>0.023674523555760905 0 -0.015000000000000013</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="ETY-DR-0011-1" uid="ETY-DR-0011-1" entityUid="ETY-DR-0011*:*Default">
+<Transform>
+<Rotation>0.49999999987054095 -0.86602540385918192 9.0123096995239808e-15 2.0882867241398597e-15 1.161219176309379e-14 1 -0.86602540385918192 -0.49999999987054095 7.6146052336905794e-15</Rotation>
+<Translation>-0.19500000003930198 0.19957345920800401 0.112583302515928</Translation>
+</Transform>
+</Instance>
+<Instance name="ETY-DR-0013-1" uid="ETY-DR-0013-1" entityUid="ETY-DR-0013*:*Default">
+<Transform>
+<Rotation>-1.0569558985366666e-10 -1.0569495147542802e-10 -1 0.70710678118654902 -0.70710678118654602 -4.5140158181052197e-16 -0.70710678118654602 -0.70710678118654902 1.4947568525249799e-10</Rotation>
+<Translation>-0.17499999999701196 0.011656854249492421 0.39549990747144903</Translation>
+</Transform>
+</Instance>
+<Instance name="ETY-DR-0008-1" uid="ETY-DR-0008-1" entityUid="ETY-DR-0008*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="ETY-DR-0013-2" uid="ETY-DR-0013-2" entityUid="ETY-DR-0013*:*Default">
+<Transform>
+<Rotation>-0.61237243631892568 -0.61237243631892802 0.4999999984736439 0.70710678118654891 -0.70710678118654635 0 0.35355338951397652 0.35355338951397763 0.86602540466568079</Rotation>
+<Translation>0.040012967101439922 0.011656854249492393 -0.046195508053974113</Translation>
+</Transform>
+</Instance>
+<Instance name="ZLW-1040S-G0BW0-D0H1C-AN0A0AA-150-2" uid="ZLW-1040S-G0BW0-D0H1C-AN0A0AA-150-2" entityUid="ZLW-1040S-G0BW0-D0H1C-AN0A0AA-150" rigid="true">
+<Transform>
+<Rotation>-0.4999999993231643 0.61237243579870237 0.61237243614552095 -4.9047427616711326e-10 0.70710678118654813 -0.70710678118654702 -0.86602540417521001 -0.35355339041503131 -0.35355338981432605</Rotation>
+<Translation>-0.132940846696082 0.26355492811608 0.076753433715686187</Translation>
+</Transform>
+<Instance name="ZTF-104004-1" uid="ZTF-104004-1" entityUid="ZTF-104004" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 -0.0067376725769592652 0.26000000000000006</Translation>
+</Transform>
+<Instance name="SAXT-104004-1" uid="SAXT-104004-1" entityUid="SAXT-104004*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="SAXT-104002-1" uid="SAXT-104002-1" entityUid="SAXT-104002*:*Default">
+<Transform>
+<Rotation>-1 -1.1380649758362155e-15 0 -1.1807872051281368e-15 1.0000000000000002 0 0 1.1102230246251565e-16 -1</Rotation>
+<Translation>0 0 0.051999999999999935</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="ZTL-104002-1" uid="ZTL-104002-1" entityUid="ZTL-104002" rigid="true">
+<Transform>
+<Rotation>-1 0 0 0 1 1.1102230246251563e-16 0 1.1102230246251563e-16 -1</Rotation>
+<Translation>0 -0.0067376725769593346 0.010000000000000009</Translation>
+</Transform>
+<Instance name="SAXT-104001-1" uid="SAXT-104001-1" entityUid="SAXT-104001*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="SAXT-104002-1" uid="SAXT-104002-1" entityUid="SAXT-104002*:*Default">
+<Transform>
+<Rotation>-1 2.2436346323876437e-16 0 2.2436346323876437e-16 1 -1.1102230246251563e-16 0 -1.1102230246251563e-16 -1</Rotation>
+<Translation>0 0 0.052000000000000011</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="ZSX-104001-konfig-1" uid="ZSX-104001-konfig-1" entityUid="ZSX-104001-konfig*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="MK-0111 (0_X_B0)-1" uid="MK-0111 (0_X_B0)-1" entityUid="MK-0111 (0_X_B0)" rigid="true">
+<Transform>
+<Rotation>-1 0 -8.3212235688139714e-16 0 -1 -1.1102230246251565e-16 -8.3212235688139714e-16 -1.110223024625156e-16 1</Rotation>
+<Translation>-0.030000000000000127 -0.0067376725769592513 0.30000000000000004</Translation>
+</Transform>
+<Instance name="MF-1040-NEMA23-S-1" uid="MF-1040-NEMA23-S-1" entityUid="MF-1040-NEMA23-S" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="ZTY-104004-1" uid="ZTY-104004-1" entityUid="ZTY-104004*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="ZTY-104010-1" uid="ZTY-104010-1" entityUid="ZTY-104010*:*Default">
+<Transform>
+<Rotation>-1.6598854386406199e-16 0 -1 1 -1.1102230246251568e-16 -1.6598854386406199e-16 -1.1102230246251563e-16 -1 0</Rotation>
+<Translation>0.051999999999999991 0 -0.015000000000000013</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="MOT-AN-S-060-035-060-M-C-AAAC-1" uid="MOT-AN-S-060-035-060-M-C-AAAC-1" entityUid="MOT-AN-S-060-035-060-M-C-AAAC" rigid="true">
+<Transform>
+<Rotation>2.7810066758866299e-16 0 -1 2.2204460492503126e-16 1 0 1 -2.2204460492503111e-16 2.7810066758866299e-16</Rotation>
+<Translation>0.052000000000000018 0 -0.015000000000000013</Translation>
+</Transform>
+<Instance name="2-1" uid="2-1" entityUid="2*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="1-1" uid="1-1" entityUid="1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="COU-AR-K-080-100-32-32-B-AAAA-1" uid="COU-AR-K-080-100-32-32-B-AAAA-1" entityUid="COU-AR-K-080-100-32-32-B-AAAA*:*Default">
+<Transform>
+<Rotation>-1.1929551608755698e-15 2.5738918003810216e-16 -0.99999999999999989 0.98926554709129344 -0.14612897501236427 -1.1945068239570134e-15 -0.14612897501236422 -0.98926554709129322 0</Rotation>
+<Translation>0.023674523555760923 0 -0.014999999999999958</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="Link_Asly-1" uid="Link_Asly-1" entityUid="Link_Asly" rigid="true">
+<Transform>
+<Rotation>0.66377645379489725 0.38993967758942527 0.63823809603385917 -0.60334966666798651 -0.22513177670032153 0.76503912504615479 0.44200678628172668 -0.89289569993432705 0.08583280211951777</Rotation>
+<Translation>0.15634929617232091 -0.12951153366723261 -0.026484910633231988</Translation>
+</Transform>
+<Instance name="Rohr 8-10-adaptiv-1" uid="Rohr 8-10-adaptiv-1" entityUid="Rohr 8-10-adaptiv*:*Default">
+<Transform>
+<Rotation>-0.70710678118654802 -0.70710678118654691 0 0 0 0.99999999999999989 -0.70710678118654702 0.70710678118654802 0</Rotation>
+<Translation>-0.018215153416679425 -0.14275899163619712 0.07132117507063819</Translation>
+</Transform>
+</Instance>
+<Instance name="_D_KARM-10 CL KDGM Kopfteil-2" uid="_D_KARM-10 CL KDGM Kopfteil-2" entityUid="_D_KARM-10 CL KDGM Kopfteil*:*Default">
+<Transform>
+<Rotation>0.99999999999999978 0 0 0 -1 0 0 0 -1</Rotation>
+<Translation>-0.018215153416679425 -0.34275899163619811 0.07132117507063819</Translation>
+</Transform>
+</Instance>
+<Instance name="_D_KARM-10 CL KDGM Kopfteil-1" uid="_D_KARM-10 CL KDGM Kopfteil-1" grounded="true" entityUid="_D_KARM-10 CL KDGM Kopfteil*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.018215153416679425 0.057241008363803872 0.07132117507063819</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="PrismaticJoint_Asly-4" uid="PrismaticJoint_Asly-4" entityUid="PrismaticJoint_Asly" rigid="true">
+<Transform>
+<Rotation>-1 1.0569940755988938e-10 -1.0570290476241695e-10 -1.4948402194889243e-10 -0.70710678118654702 0.70710678118654791 -2.4424906541753444e-15 0.70710678118654791 0.70710678118654713</Rotation>
+<Translation>0.10094723487616966 0.13279524400219808 -0.13328564561468956</Translation>
+</Transform>
+<Instance name="ZWY-104001-1" uid="ZWY-104001-1" entityUid="ZWY-104001*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.10094723489601141 -0.059637093217907194 0.077166571469762496</Translation>
+</Transform>
+</Instance>
+<Instance name="WKM-10-14-1" uid="WKM-10-14-1" entityUid="WKM-10-14*:*Default">
+<Transform>
+<Rotation>7.1357221910121499e-15 1 0 -0.99999999999999978 7.1975972041057739e-15 1.1102230246251565e-16 -1.1102230246251565e-16 0 1</Rotation>
+<Translation>0.061447234896011588 -0.025137093217907136 0.10116657146976242</Translation>
+</Transform>
+</Instance>
+<Instance name="ETY-DR-0012-2" uid="ETY-DR-0012-2" entityUid="ETY-DR-0012*:*Default">
+<Transform>
+<Rotation>-1 6.9520251711376869e-15 0 -7.0139001842195663e-15 -0.99999999999999978 1.1102230246251565e-16 0 -1.1102230246251565e-16 1</Rotation>
+<Translation>0.088447234896011584 -0.025137093217906969 0.10116657146976248</Translation>
+</Transform>
+</Instance>
+<Instance name="ETY-DR-0010-1" uid="ETY-DR-0010-1" entityUid="ETY-DR-0010*:*Default">
+<Transform>
+<Rotation>-1 6.9520251711376932e-15 0 -7.0139001842133643e-15 -0.99999999999999978 -3.4972025275692431e-15 0 -3.6637359812630166e-15 1</Rotation>
+<Translation>0.10094723489601168 -0.037137093217906814 0.085166571469762392</Translation>
+</Transform>
+</Instance>
+<Instance name="ZS-104001-WJ200UMA-1" uid="ZS-104001-WJ200UMA-1" grounded="true" entityUid="ZS-104001-WJ200UMA" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 -3.3861802251067274e-15 -0.99999999999999978 0 1 -3.4972025275692431e-15</Rotation>
+<Translation>0.10094723489601141 -0.059637093217907444 0.071166571469762158</Translation>
+</Transform>
+<Instance name="WJ200UMA-01-10-AL-3" uid="WJ200UMA-01-10-AL-3" entityUid="WJ200UMA-01-10-AL" rigid="true">
+<Transform>
+<Rotation>-1 1.3396443284912298e-15 1.4574859129132242e-14 1.3155211048949982e-15 1 2.7755575615628914e-16 -1.4512984116036686e-14 1.1102230246251565e-16 -0.99999999999999978</Rotation>
+<Translation>0.020000000000002204 -0.0090000000000010211 -0.03550000000000425</Translation>
+</Transform>
+<Instance name="WMA-01-10-AL-1" uid="WMA-01-10-AL-1" entityUid="WMA-01-10-AL*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="WRZ-011007-1" uid="WRZ-011007-1" entityUid="WRZ-011007*:*Default">
+<Transform>
+<Rotation>-2.9180174479135833e-16 -1 -2.000102309934739e-16 1.1102230246251565e-16 -1.758870073933554e-16 1 -0.99999999999999978 3.5367675790365939e-16 2.7755575615628914e-16</Rotation>
+<Translation>-0.0155 0.0017500000000000016 0</Translation>
+</Transform>
+</Instance>
+<Instance name="J200UMA-01-10-1" uid="J200UMA-01-10-1" entityUid="J200UMA-01-10*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="WJ200UMA-01-10-AL-4" uid="WJ200UMA-01-10-AL-4" entityUid="WJ200UMA-01-10-AL" rigid="true">
+<Transform>
+<Rotation>-1 1.2439061582673984e-15 2.0514552310889755e-14 1.2197829346711923e-15 1 1.1102230246251565e-16 -2.0452677297781324e-14 -1.1102230246251565e-16 -0.99999999999999978</Rotation>
+<Translation>0.020000000000002897 -0.0090000000000010072 0.035500000000004195</Translation>
+</Transform>
+<Instance name="WMA-01-10-AL-1" uid="WMA-01-10-AL-1" entityUid="WMA-01-10-AL*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="WRZ-011007-1" uid="WRZ-011007-1" entityUid="WRZ-011007*:*Default">
+<Transform>
+<Rotation>-2.9180174479140566e-16 -1 -2.000102309934455e-16 1.1102230246251565e-16 -1.758870074063085e-16 1 -0.99999999999999978 3.5367675790361048e-16 2.7755575615628914e-16</Rotation>
+<Translation>-0.015499999999999996 0.0017500000000000016 0</Translation>
+</Transform>
+</Instance>
+<Instance name="J200UMA-01-10-1" uid="J200UMA-01-10-1" entityUid="J200UMA-01-10*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="WJ200UMA-01-10-AL-2" uid="WJ200UMA-01-10-AL-2" entityUid="WJ200UMA-01-10-AL" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.020000000000002696 -0.0090000000000010488 -0.035500000000004306</Translation>
+</Transform>
+<Instance name="WMA-01-10-AL-1" uid="WMA-01-10-AL-1" entityUid="WMA-01-10-AL*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="WRZ-011007-1" uid="WRZ-011007-1" entityUid="WRZ-011007*:*Default">
+<Transform>
+<Rotation>-2.9180174480152951e-16 -1 -1.7588700739724232e-16 2.7755575615628914e-16 -2.0001023097696501e-16 1 -0.99999999999999978 3.53676757906491e-16 1.1102230246251565e-16</Rotation>
+<Translation>-0.0155 0.0017500000000000016 0</Translation>
+</Transform>
+</Instance>
+<Instance name="J200UMA-01-10-1" uid="J200UMA-01-10-1" entityUid="J200UMA-01-10*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="ZSY-104001-1" uid="ZSY-104001-1" entityUid="ZSY-104001*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="WJ200UMA-01-10-AL-1" uid="WJ200UMA-01-10-AL-1" entityUid="WJ200UMA-01-10-AL" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.020000000000002606 -0.0090000000000009933 0.035500000000004583</Translation>
+</Transform>
+<Instance name="WMA-01-10-AL-1" uid="WMA-01-10-AL-1" entityUid="WMA-01-10-AL*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="WRZ-011007-1" uid="WRZ-011007-1" entityUid="WRZ-011007*:*Default">
+<Transform>
+<Rotation>-2.9180174480152951e-16 -1 -1.7588700739724232e-16 2.7755575615628914e-16 -2.0001023097696501e-16 1 -0.99999999999999978 3.53676757906491e-16 1.1102230246251565e-16</Rotation>
+<Translation>-0.015499999999999993 0.0017500000000000154 0</Translation>
+</Transform>
+</Instance>
+<Instance name="J200UMA-01-10-1" uid="J200UMA-01-10-1" entityUid="J200UMA-01-10*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="ETY-DR-0012-1" uid="ETY-DR-0012-1" entityUid="ETY-DR-0012*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.11344723489601145 -0.025137093217907164 0.10116657146976253</Translation>
+</Transform>
+</Instance>
+<Instance name="WKM-10-14-2" uid="WKM-10-14-2" entityUid="WKM-10-14*:*Default">
+<Transform>
+<Rotation>-1.5275951333176452e-16 -1 0 0.99999999999999978 -2.1463452640305684e-16 1.1102230246251565e-16 1.1102230246251565e-16 0 1</Rotation>
+<Translation>0.14044723489601144 -0.025137093217907192 0.10116657146976256</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Link_Asly-2" uid="Link_Asly-2" entityUid="Link_Asly" rigid="true">
+<Transform>
+<Rotation>0.6937460034295182 0.38993967769366195 0.60552748119778532 -0.56580235916171073 -0.22513177676050233 0.79321080014060696 0.44562784146932888 -0.89289569987363171 0.064444519197246128</Rotation>
+<Translation>0.11972815559817462 -0.19925284756759576 -0.024893515081271109</Translation>
+</Transform>
+<Instance name="Rohr 8-10-adaptiv-1" uid="Rohr 8-10-adaptiv-1" entityUid="Rohr 8-10-adaptiv*:*Default">
+<Transform>
+<Rotation>-0.70710678118654791 -0.70710678118654713 0 0 0 1 -0.70710678118654724 0.70710678118654791 0</Rotation>
+<Translation>-0.018215153416679397 -0.1427589916361971 0.071321175070638246</Translation>
+</Transform>
+</Instance>
+<Instance name="_D_KARM-10 CL KDGM Kopfteil-2" uid="_D_KARM-10 CL KDGM Kopfteil-2" entityUid="_D_KARM-10 CL KDGM Kopfteil*:*Default">
+<Transform>
+<Rotation>0.99999999999999989 0 0 0 -1 0 1.6306400674181987e-16 0 -1.0000000000000002</Rotation>
+<Translation>-0.018215153416679425 -0.34275899163619816 0.071321175070638232</Translation>
+</Transform>
+</Instance>
+<Instance name="_D_KARM-10 CL KDGM Kopfteil-1" uid="_D_KARM-10 CL KDGM Kopfteil-1" grounded="true" entityUid="_D_KARM-10 CL KDGM Kopfteil*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.018215153416679397 0.057241008363803872 0.071321175070638232</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="PrismaticJoint_Asly-5" uid="PrismaticJoint_Asly-5" entityUid="PrismaticJoint_Asly" rigid="true">
+<Transform>
+<Rotation>0.49999999932317829 0.6123724361455134 -0.61237243579869827 -0.86602540417520191 0.35355338981434647 -0.35355339041503053 -4.9046000594188399e-10 0.70710678118654313 0.7071067811865519</Rotation>
+<Translation>-0.1654776726691686 0.021025247848618461 -0.13328564569187246</Translation>
+</Transform>
+<Instance name="ZWY-104001-1" uid="ZWY-104001-1" entityUid="ZWY-104001*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.10094723489601143 -0.059637093217907194 0.077166571469762496</Translation>
+</Transform>
+</Instance>
+<Instance name="WKM-10-14-1" uid="WKM-10-14-1" entityUid="WKM-10-14*:*Default">
+<Transform>
+<Rotation>7.1188778357950927e-15 1 0 -0.99999999999999989 7.1781042006603283e-15 0 0 0 1</Rotation>
+<Translation>0.061447234896011574 -0.025137093217907164 0.10116657146976242</Translation>
+</Transform>
+</Instance>
+<Instance name="ETY-DR-0012-2" uid="ETY-DR-0012-2" entityUid="ETY-DR-0012*:*Default">
+<Transform>
+<Rotation>-1.0000000000000002 6.9523443821013192e-15 0 -6.9752333882347318e-15 -1 0 0 0 1</Rotation>
+<Translation>0.08844723489601157 -0.025137093217906969 0.10116657146976242</Translation>
+</Transform>
+</Instance>
+<Instance name="ETY-DR-0010-1" uid="ETY-DR-0010-1" entityUid="ETY-DR-0010*:*Default">
+<Transform>
+<Rotation>-1.0000000000000002 6.9523443833420902e-15 0 -6.9881599538551778e-15 -1 -3.6082248300317588e-15 0 -3.5527136788005009e-15 1</Rotation>
+<Translation>0.10094723489601166 -0.037137093217906786 0.085166571469762378</Translation>
+</Transform>
+</Instance>
+<Instance name="ZS-104001-WJ200UMA-1" uid="ZS-104001-WJ200UMA-1" grounded="true" entityUid="ZS-104001-WJ200UMA" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 -3.3861802251067274e-15 -1 0 1 -3.3861802251067274e-15</Rotation>
+<Translation>0.10094723489601139 -0.059637093217907444 0.071166571469762158</Translation>
+</Transform>
+<Instance name="WJ200UMA-01-10-AL-3" uid="WJ200UMA-01-10-AL-3" entityUid="WJ200UMA-01-10-AL" rigid="true">
+<Transform>
+<Rotation>-1 1.3188171483058685e-15 1.4585982294385947e-14 1.3433756544137653e-15 1 1.6653345369377348e-16 -1.4499518494309015e-14 2.2204460492503131e-16 -1</Rotation>
+<Translation>0.020000000000002207 -0.0090000000000010627 -0.035500000000004195</Translation>
+</Transform>
+<Instance name="WMA-01-10-AL-1" uid="WMA-01-10-AL-1" entityUid="WMA-01-10-AL*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="WRZ-011007-1" uid="WRZ-011007-1" entityUid="WRZ-011007*:*Default">
+<Transform>
+<Rotation>-2.8866377910701138e-16 -1 -2.109365800614539e-16 1.1102230246251565e-16 -2.2126846487179041e-16 1 -1 4.4486535166106232e-16 2.2204460492503131e-16</Rotation>
+<Translation>-0.015500000000000003 0.0017499999999999877 0</Translation>
+</Transform>
+</Instance>
+<Instance name="J200UMA-01-10-1" uid="J200UMA-01-10-1" entityUid="J200UMA-01-10*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="WJ200UMA-01-10-AL-4" uid="WJ200UMA-01-10-AL-4" entityUid="WJ200UMA-01-10-AL" rigid="true">
+<Transform>
+<Rotation>-1 1.2633059970229119e-15 2.0525675476182233e-14 1.2122398424161888e-15 1 0 -2.0419098166518542e-14 0 -0.99999999999999989</Rotation>
+<Translation>0.020000000000002925 -0.0090000000000010211 0.035500000000004195</Translation>
+</Transform>
+<Instance name="WMA-01-10-AL-1" uid="WMA-01-10-AL-1" entityUid="WMA-01-10-AL*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="WRZ-011007-1" uid="WRZ-011007-1" entityUid="WRZ-011007*:*Default">
+<Transform>
+<Rotation>-2.6855026952025187e-16 -1 -2.011549553884284e-16 0 -2.0115495538842842e-16 1 -1 2.6855026952025192e-16 0</Rotation>
+<Translation>-0.015499999999999983 0.0017500000000000016 0</Translation>
+</Transform>
+</Instance>
+<Instance name="J200UMA-01-10-1" uid="J200UMA-01-10-1" entityUid="J200UMA-01-10*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="WJ200UMA-01-10-AL-2" uid="WJ200UMA-01-10-AL-2" entityUid="WJ200UMA-01-10-AL" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0200000000000027 -0.0090000000000010627 -0.035500000000004306</Translation>
+</Transform>
+<Instance name="WMA-01-10-AL-1" uid="WMA-01-10-AL-1" entityUid="WMA-01-10-AL*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="WRZ-011007-1" uid="WRZ-011007-1" entityUid="WRZ-011007*:*Default">
+<Transform>
+<Rotation>-2.9100623559115092e-16 -1.0000000000000002 -1.7998393493809286e-16 1.6653345369377348e-16 -1.8638230270764364e-16 1 -1 3.5291575831427228e-16 2.2204460492503131e-16</Rotation>
+<Translation>-0.015500000000000003 0.0017500000000000016 0</Translation>
+</Transform>
+</Instance>
+<Instance name="J200UMA-01-10-1" uid="J200UMA-01-10-1" entityUid="J200UMA-01-10*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="ZSY-104001-1" uid="ZSY-104001-1" entityUid="ZSY-104001*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="WJ200UMA-01-10-AL-1" uid="WJ200UMA-01-10-AL-1" entityUid="WJ200UMA-01-10-AL" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.020000000000002606 -0.0090000000000010211 0.035500000000004583</Translation>
+</Transform>
+<Instance name="WMA-01-10-AL-1" uid="WMA-01-10-AL-1" entityUid="WMA-01-10-AL*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="WRZ-011007-1" uid="WRZ-011007-1" entityUid="WRZ-011007*:*Default">
+<Transform>
+<Rotation>-2.9100623559115092e-16 -1.0000000000000002 -1.7998393493809286e-16 1.6653345369377348e-16 -1.8638230270764364e-16 1 -1 3.5291575831427228e-16 2.2204460492503131e-16</Rotation>
+<Translation>-0.0155 0.0017500000000000016 0</Translation>
+</Transform>
+</Instance>
+<Instance name="J200UMA-01-10-1" uid="J200UMA-01-10-1" entityUid="J200UMA-01-10*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="ETY-DR-0012-1" uid="ETY-DR-0012-1" entityUid="ETY-DR-0012*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.11344723489601145 -0.025137093217907164 0.1011665714697625</Translation>
+</Transform>
+</Instance>
+<Instance name="WKM-10-14-2" uid="WKM-10-14-2" entityUid="WKM-10-14*:*Default">
+<Transform>
+<Rotation>-1.7998393188786435e-16 -1 0 0.99999999999999989 -1.8942033417980689e-16 0 0 0 1</Rotation>
+<Translation>0.14044723489601146 -0.025137093217907164 0.1011665714697625</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Link_Asly-3" uid="Link_Asly-3" entityUid="Link_Asly" rigid="true">
+<Transform>
+<Rotation>-0.57488842887697389 0.38993967671742036 -0.71934021357413214 -0.69795347161742338 0.22513177683842703 0.67983574083359233 0.42704126943487697 0.89289570028032161 0.1427340976093745</Rotation>
+<Translation>0.0018889006487946437 -0.12929478701465771 0.22412200241945579</Translation>
+</Transform>
+<Instance name="Rohr 8-10-adaptiv-1" uid="Rohr 8-10-adaptiv-1" entityUid="Rohr 8-10-adaptiv*:*Default">
+<Transform>
+<Rotation>-0.70710678118654813 -0.70710678118654691 0 0 0 0.99999999999999989 -0.70710678118654691 0.70710678118654802 0</Rotation>
+<Translation>-0.018215153416679397 -0.14275899163619701 0.07132117507063819</Translation>
+</Transform>
+</Instance>
+<Instance name="_D_KARM-10 CL KDGM Kopfteil-2" uid="_D_KARM-10 CL KDGM Kopfteil-2" entityUid="_D_KARM-10 CL KDGM Kopfteil*:*Default">
+<Transform>
+<Rotation>1 0 0 -1.1102230246251565e-16 -0.99999999999999978 0 0 0 -0.99999999999999989</Rotation>
+<Translation>-0.018215153416679397 -0.34275899163619789 0.071321175070638176</Translation>
+</Transform>
+</Instance>
+<Instance name="_D_KARM-10 CL KDGM Kopfteil-1" uid="_D_KARM-10 CL KDGM Kopfteil-1" grounded="true" entityUid="_D_KARM-10 CL KDGM Kopfteil*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.018215153416679425 0.057241008363803858 0.07132117507063819</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Link_Asly-4" uid="Link_Asly-4" entityUid="Link_Asly" rigid="true">
+<Transform>
+<Rotation>0.029182742716941816 0.38993967668797153 -0.92037786591812232 -0.97218727240259872 0.22513177682142516 0.064556877585765782 0.23237959227503671 0.89289570029746934 0.38566435340121774</Rotation>
+<Translation>-0.012269608644041948 -0.02199157932102631 0.20325013884697082</Translation>
+</Transform>
+<Instance name="Rohr 8-10-adaptiv-1" uid="Rohr 8-10-adaptiv-1" entityUid="Rohr 8-10-adaptiv*:*Default">
+<Transform>
+<Rotation>-0.70710678118654813 -0.70710678118654691 0 1.1102230246251565e-16 0 0.99999999999999978 -0.70710678118654691 0.70710678118654813 0</Rotation>
+<Translation>-0.018215153416679411 -0.1427589916361971 0.071321175070638246</Translation>
+</Transform>
+</Instance>
+<Instance name="_D_KARM-10 CL KDGM Kopfteil-2" uid="_D_KARM-10 CL KDGM Kopfteil-2" entityUid="_D_KARM-10 CL KDGM Kopfteil*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -0.99999999999999989 0 0 0 -0.99999999999999989</Rotation>
+<Translation>-0.01821515341667939 -0.342758991636198 0.071321175070638218</Translation>
+</Transform>
+</Instance>
+<Instance name="_D_KARM-10 CL KDGM Kopfteil-1" uid="_D_KARM-10 CL KDGM Kopfteil-1" grounded="true" entityUid="_D_KARM-10 CL KDGM Kopfteil*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.018215153416679439 0.05724100836380383 0.07132117507063819</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Link_Asly-6" uid="Link_Asly-6" entityUid="Link_Asly" rigid="true">
+<Transform>
+<Rotation>0.90878732866040302 9.5436148567218382e-10 0.41725962093915675 -0.37256932169810936 0.45026355501582477 0.81145229776858852 -0.18787679951420139 -0.89289569996977347 0.40919381371153357</Rotation>
+<Translation>0.026294254051985197 0.13167174312009172 -0.061020824094873284</Translation>
+</Transform>
+<Instance name="Rohr 8-10-adaptiv-1" uid="Rohr 8-10-adaptiv-1" entityUid="Rohr 8-10-adaptiv*:*Default">
+<Transform>
+<Rotation>-0.70710678118654824 -0.70710678118654691 0 0 0 1 -0.70710678118654702 0.70710678118654791 0</Rotation>
+<Translation>-0.018215153416679432 -0.14275899163619715 0.071321175070638232</Translation>
+</Transform>
+</Instance>
+<Instance name="_D_KARM-10 CL KDGM Kopfteil-2" uid="_D_KARM-10 CL KDGM Kopfteil-2" entityUid="_D_KARM-10 CL KDGM Kopfteil*:*Default">
+<Transform>
+<Rotation>0.99999999999999989 0 0 1.1102230246251565e-16 -1.0000000000000002 0 0 0 -1</Rotation>
+<Translation>-0.018215153416679432 -0.34275899163619816 0.071321175070638232</Translation>
+</Transform>
+</Instance>
+<Instance name="_D_KARM-10 CL KDGM Kopfteil-1" uid="_D_KARM-10 CL KDGM Kopfteil-1" grounded="true" entityUid="_D_KARM-10 CL KDGM Kopfteil*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.018215153416679404 0.057241008363803858 0.071321175070638232</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Link_Asly-5" uid="Link_Asly-5" entityUid="Link_Asly" rigid="true">
+<Transform>
+<Rotation>0.95368989106696656 9.543621990928919e-10 0.30079160838806251 -0.2685755341492399 0.45026355486595471 0.85154560278115699 -0.13543549805397423 -0.89289570004534868 0.4294118008478558</Rotation>
+<Translation>-0.043581203371691253 0.13070650428549041 -0.061507568339218111</Translation>
+</Transform>
+<Instance name="Rohr 8-10-adaptiv-1" uid="Rohr 8-10-adaptiv-1" entityUid="Rohr 8-10-adaptiv*:*Default">
+<Transform>
+<Rotation>-0.70710678118654802 -0.70710678118654691 0 0 0 0.99999999999999989 -0.70710678118654691 0.70710678118654813 0</Rotation>
+<Translation>-0.018215153416679425 -0.14275899163619707 0.071321175070638232</Translation>
+</Transform>
+</Instance>
+<Instance name="_D_KARM-10 CL KDGM Kopfteil-2" uid="_D_KARM-10 CL KDGM Kopfteil-2" entityUid="_D_KARM-10 CL KDGM Kopfteil*:*Default">
+<Transform>
+<Rotation>0.99999999999999989 0 1.0408340855860843e-16 0 -0.99999999999999989 0 0 0 -1</Rotation>
+<Translation>-0.018215153416679397 -0.342758991636198 0.071321175070638176</Translation>
+</Transform>
+</Instance>
+<Instance name="_D_KARM-10 CL KDGM Kopfteil-1" uid="_D_KARM-10 CL KDGM Kopfteil-1" grounded="true" entityUid="_D_KARM-10 CL KDGM Kopfteil*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.018215153416679425 0.057241008363803858 0.071321175070638204</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="MobilePlatform_Asly-1" uid="MobilePlatform_Asly-1" entityUid="MobilePlatform_Asly" rigid="true">
+<Transform>
+<Rotation>0.86602540408911499 -3.8265967342204767e-10 -0.49999999947228529 0.49999999947228529 4.4566320815292732e-10 0.86602540408911499 -1.0856139446467175e-10 -1 5.7728549643183379e-10</Rotation>
+<Translation>0.007990620651478186 -0.091503257081092235 0.33911503840530566</Translation>
+</Transform>
+<Instance name="ETY-DR-0012-1" uid="ETY-DR-0012-1" entityUid="ETY-DR-0012*:*Default">
+<Transform>
+<Rotation>-1.6659612461227035e-16 1.0000000000000002 0 0 0 1 1.0000000000000002 1.6647078277527662e-16 0</Rotation>
+<Translation>-0.003168452461070323 0.061481444437561428 0.095739455522277403</Translation>
+</Transform>
+</Instance>
+<Instance name="ETY-DR-0009-1" uid="ETY-DR-0009-1" grounded="true" entityUid="ETY-DR-0009*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.038831547538929673 0.055481444437561422 0.083239455522277392</Translation>
+</Transform>
+</Instance>
+<Instance name="ETY-DR-0012-3" uid="ETY-DR-0012-3" entityUid="ETY-DR-0012*:*Default">
+<Transform>
+<Rotation>0.86602540378443871 0.49999999999999972 1.5723508383521085e-16 0 -1.9429282420725754e-16 1 0.49999999999999978 -0.86602540378443882 -1.335703107370332e-16</Rotation>
+<Translation>0.070656865086235227 0.061481444437561428 0.053116388563330903</Translation>
+</Transform>
+</Instance>
+<Instance name="ETY-DR-0012-4" uid="ETY-DR-0012-4" entityUid="ETY-DR-0012*:*Default">
+<Transform>
+<Rotation>-0.86602540378443893 0.49999999999999978 1.1645654207551292e-16 -1.1102681985093717e-16 0 -0.99999999999999978 -0.49999999999999961 -0.86602540378443882 0</Rotation>
+<Translation>0.049006229991624239 0.061481444437561428 0.040616388563330913</Translation>
+</Transform>
+</Instance>
+<Instance name="ETY-DR-0012-5" uid="ETY-DR-0012-5" entityUid="ETY-DR-0012*:*Default">
+<Transform>
+<Rotation>1.6659612461227035e-16 -1.0000000000000002 0 0 0 1 -1.0000000000000002 -1.6647078277527662e-16 0</Rotation>
+<Translation>-0.0031684524610703368 0.061481444437561428 0.070739455522277381</Translation>
+</Transform>
+</Instance>
+<Instance name="ETY-DR-0012-2" uid="ETY-DR-0012-2" entityUid="ETY-DR-0012*:*Default">
+<Transform>
+<Rotation>0.86602540378443871 0.49999999999999989 0 0 0 -0.99999999999999989 -0.49999999999999989 0.8660254037844386 0</Rotation>
+<Translation>0.070656865086235227 0.061481444437561483 0.11336252248122386</Translation>
+</Transform>
+</Instance>
+<Instance name="ETY-DR-0012-6" uid="ETY-DR-0012-6" entityUid="ETY-DR-0012*:*Default">
+<Transform>
+<Rotation>-0.86602540378443849 -0.50000000000000022 -2.2649053315150352e-16 2.7755678382480261e-16 0 -0.99999999999999989 0.50000000000000022 -0.86602540378443849 1.6282045679783788e-16</Rotation>
+<Translation>0.049006229991624156 0.061481444437561428 0.1258625224812239</Translation>
+</Transform>
+</Instance>
+<Instance name="WKM-10-14-1" uid="WKM-10-14-1" entityUid="WKM-10-14*:*Default">
+<Transform>
+<Rotation>1.0000000000000002 0 0 0 0 1 0 -1.0000000000000002 0</Rotation>
+<Translation>-0.003168452461070323 0.061481444437561428 0.12273945552227741</Translation>
+</Transform>
+</Instance>
+<Instance name="WKM-10-14-2" uid="WKM-10-14-2" entityUid="WKM-10-14*:*Default">
+<Transform>
+<Rotation>0.25000000000000006 0.86602540378443871 0.43301270189221958 -0.86602540378443849 -2.8736350810444392e-16 0.50000000000000033 0.43301270189221969 -0.50000000000000022 0.74999999999999978</Rotation>
+<Translation>0.025623544089444318 0.061481444437561483 0.13936252248122388</Translation>
+</Transform>
+</Instance>
+<Instance name="WKM-10-14-4" uid="WKM-10-14-4" entityUid="WKM-10-14*:*Default">
+<Transform>
+<Rotation>0.24999999999999975 -0.86602540378443893 -0.43301270189221908 0.86602540378443882 0 0.49999999999999961 -0.43301270189221913 -0.49999999999999961 0.75000000000000033</Rotation>
+<Translation>0.094039550988415085 0.061481444437561483 0.066616388563330881</Translation>
+</Transform>
+</Instance>
+<Instance name="WKM-10-14-5" uid="WKM-10-14-5" entityUid="WKM-10-14*:*Default">
+<Transform>
+<Rotation>0.21940331506467373 0.86602540378443871 -0.4492907581273306 -0.89858151625466143 1.418181615495255e-16 -0.43880663012934717 -0.38001768904105676 0.5 0.7781944204476765</Rotation>
+<Translation>0.025623544089444394 0.061481444437561428 0.027116388563330915</Translation>
+</Transform>
+</Instance>
+<Instance name="WKM-10-14-6" uid="WKM-10-14-6" entityUid="WKM-10-14*:*Default">
+<Transform>
+<Rotation>0.99945437099802692 0 0.033029688053905 0.033029688053905 0 -0.99945437099802692 0 1 0</Rotation>
+<Translation>-0.0031684524610703368 0.061481444437561428 0.043739455522277385</Translation>
+</Transform>
+</Instance>
+<Instance name="WKM-10-14-3" uid="WKM-10-14-3" entityUid="WKM-10-14*:*Default">
+<Transform>
+<Rotation>0.35326900539177897 -0.86602540378443871 0.35383754722966182 0.70767509445932364 0 -0.70653801078355805 0.61187986607788503 0.49999999999999989 0.61286460942732657</Rotation>
+<Translation>0.094039550988415099 0.061481444437561428 0.099862522481223862</Translation>
+</Transform>
+</Instance>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>DeltaRobot360_FixedParts_Asly-1</Uid>
+<Uid>ZLW-1040S-G0BW0-D0H1C-AN0A0AA-150-1</Uid>
+<Uid>ZSX-104001-konfig-1</Uid>
+</InstancePath>
+<Position>0.019999999999999997 0.0012623274230406517 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>PrismaticJoint_Asly-4</Uid>
+<Uid>ZS-104001-WJ200UMA-1</Uid>
+<Uid>WJ200UMA-01-10-AL-4</Uid>
+<Uid>J200UMA-01-10-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.1102230246251565e-16 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>DeltaRobot360_FixedParts_Asly-1</Uid>
+<Uid>ZLW-1040S-G0BW0-D0H1C-AN0A0AA-150-1</Uid>
+<Uid>ZSX-104001-konfig-1</Uid>
+</InstancePath>
+<Position>-0.020000000000000004 0.0012623274230406378 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>PrismaticJoint_Asly-4</Uid>
+<Uid>ZS-104001-WJ200UMA-1</Uid>
+<Uid>WJ200UMA-01-10-AL-1</Uid>
+<Uid>J200UMA-01-10-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1.1102230246251565e-16 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>DeltaRobot360_FixedParts_Asly-1</Uid>
+<Uid>ZLW-1040S-G0BW0-D0H1C-AN0A0AA-150-2</Uid>
+<Uid>ZSX-104001-konfig-1</Uid>
+</InstancePath>
+<Position>-0.020000000000000007 0.0012623274230406517 0</Position>
+<Axis>0 1.1102230246251565e-16 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>PrismaticJoint_Asly-5</Uid>
+<Uid>ZS-104001-WJ200UMA-1</Uid>
+<Uid>WJ200UMA-01-10-AL-1</Uid>
+<Uid>J200UMA-01-10-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1.1102230246251565e-16 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>DeltaRobot360_FixedParts_Asly-1</Uid>
+<Uid>ZLW-1040S-G0BW0-D0H1C-AN0A0AA-150-2</Uid>
+<Uid>ZSX-104001-konfig-1</Uid>
+</InstancePath>
+<Position>0.020000000000000004 0.0012623274230406586 0</Position>
+<Axis>0 1.1102230246251565e-16 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>PrismaticJoint_Asly-5</Uid>
+<Uid>ZS-104001-WJ200UMA-1</Uid>
+<Uid>WJ200UMA-01-10-AL-3</Uid>
+<Uid>J200UMA-01-10-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>DeltaRobot360_FixedParts_Asly-1</Uid>
+<Uid>ZLW-1040S-G0BW0-D0H1C-AN0A0AA-150-3</Uid>
+<Uid>ZSX-104001-konfig-1</Uid>
+</InstancePath>
+<Position>-0.019999999999999993 0.0012623274230406586 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>PrismaticJoint_Asly-6</Uid>
+<Uid>ZS-104001-WJ200UMA-1</Uid>
+<Uid>WJ200UMA-01-10-AL-1</Uid>
+<Uid>J200UMA-01-10-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>DeltaRobot360_FixedParts_Asly-1</Uid>
+<Uid>ZLW-1040S-G0BW0-D0H1C-AN0A0AA-150-3</Uid>
+<Uid>ZSX-104001-konfig-1</Uid>
+</InstancePath>
+<Position>0.019999999999999997 0.0012623274230406586 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>PrismaticJoint_Asly-6</Uid>
+<Uid>ZS-104001-WJ200UMA-1</Uid>
+<Uid>WJ200UMA-01-10-AL-4</Uid>
+<Uid>J200UMA-01-10-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1.1102230246251565e-16 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>PrismaticJoint_Asly-6</Uid>
+<Uid>WKM-10-14-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Link_Asly-1</Uid>
+<Uid>_D_KARM-10 CL KDGM Kopfteil-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>PrismaticJoint_Asly-6</Uid>
+<Uid>WKM-10-14-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Link_Asly-2</Uid>
+<Uid>_D_KARM-10 CL KDGM Kopfteil-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>PrismaticJoint_Asly-5</Uid>
+<Uid>WKM-10-14-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Link_Asly-3</Uid>
+<Uid>_D_KARM-10 CL KDGM Kopfteil-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>PrismaticJoint_Asly-5</Uid>
+<Uid>WKM-10-14-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Link_Asly-4</Uid>
+<Uid>_D_KARM-10 CL KDGM Kopfteil-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>PrismaticJoint_Asly-4</Uid>
+<Uid>WKM-10-14-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Link_Asly-5</Uid>
+<Uid>_D_KARM-10 CL KDGM Kopfteil-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>PrismaticJoint_Asly-4</Uid>
+<Uid>WKM-10-14-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Link_Asly-6</Uid>
+<Uid>_D_KARM-10 CL KDGM Kopfteil-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Link_Asly-6</Uid>
+<Uid>_D_KARM-10 CL KDGM Kopfteil-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>MobilePlatform_Asly-1</Uid>
+<Uid>WKM-10-14-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Link_Asly-5</Uid>
+<Uid>_D_KARM-10 CL KDGM Kopfteil-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>MobilePlatform_Asly-1</Uid>
+<Uid>WKM-10-14-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Link_Asly-1</Uid>
+<Uid>_D_KARM-10 CL KDGM Kopfteil-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>MobilePlatform_Asly-1</Uid>
+<Uid>WKM-10-14-4</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Link_Asly-2</Uid>
+<Uid>_D_KARM-10 CL KDGM Kopfteil-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>MobilePlatform_Asly-1</Uid>
+<Uid>WKM-10-14-5</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Link_Asly-3</Uid>
+<Uid>_D_KARM-10 CL KDGM Kopfteil-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>MobilePlatform_Asly-1</Uid>
+<Uid>WKM-10-14-6</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Link_Asly-4</Uid>
+<Uid>_D_KARM-10 CL KDGM Kopfteil-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>MobilePlatform_Asly-1</Uid>
+<Uid>WKM-10-14-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="PrismaticJoint_Asly" uid="PrismaticJoint_Asly" version="127">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="PrismaticJoint_Asly.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="ZS-104001-WJ200UMA" uid="ZS-104001-WJ200UMA" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="ZS-104001-WJ200UMA.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="WJ200UMA-01-10-AL" uid="WJ200UMA-01-10-AL" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="WJ200UMA-01-10-AL.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="DeltaRobot360_FixedParts_Asly" uid="DeltaRobot360_FixedParts_Asly" version="119">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="DeltaRobot360_FixedParts_Asly.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="ZLW-1040S-G0BW0-D0H1C-AN0A0AA-150" uid="ZLW-1040S-G0BW0-D0H1C-AN0A0AA-150" version="110">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="ZLW-1040S-G0BW0-D0H1C-AN0A0AA-150.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="ZTF-104004" uid="ZTF-104004" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="ZTF-104004.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="ZTL-104002" uid="ZTL-104002" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="ZTL-104002.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="MK-0111 (0_X_B0)" uid="MK-0111 (0_X_B0)" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="MK-0111 (0_X_B0).sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="MF-1040-NEMA23-S" uid="MF-1040-NEMA23-S" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="MF-1040-NEMA23-S.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="MOT-AN-S-060-035-060-M-C-AAAC" uid="MOT-AN-S-060-035-060-M-C-AAAC" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="MOT-AN-S-060-035-060-M-C-AAAC.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Link_Asly" uid="Link_Asly" version="113">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Link_Asly.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="MobilePlatform_Asly" uid="MobilePlatform_Asly" version="151">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="MobilePlatform_Asly.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="1" uid="1*:*Default" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="1.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.11597997771777108</Mass>
+<CenterOfMass>-7.5410673170449468e-10 -0.0022909681405699519 -0.093398185698276626</CenterOfMass>
+<Inertia>4.4238922267121924e-05 4.2261620642805989e-05 6.338623270429101e-05 -1.1954858595055267e-06 1.0651994020202808e-12 3.5498637841654291e-13</Inertia>
+</MassProperties>
+<GeometryFile name="1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="2" uid="2*:*Default" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="2.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.23468825886675709</Mass>
+<CenterOfMass>0 0 -0.036753976695327414</CenterOfMass>
+<Inertia>0.00017544567221870514 0.00017544567221870511 0.0001162081098998183 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="COU-AR-K-080-100-32-32-B-AAAA" uid="COU-AR-K-080-100-32-32-B-AAAA*:*Default" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="COU-AR-K-080-100-32-32-B-AAAA.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.020433638298926471</Mass>
+<CenterOfMass>0.00038523891495845279 -0.00022452407293393795 0.00014787569762916714</CenterOfMass>
+<Inertia>3.339658287878933e-06 3.2954012706722663e-06 2.8770719118882447e-06 7.4010584559033506e-09 5.0289706915780677e-09 -3.8608170697216475e-08</Inertia>
+</MassProperties>
+<GeometryFile name="COU-AR-K-080-100-32-32-B-AAAA_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ETY-DR-0008" uid="ETY-DR-0008*:*Default" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ETY-DR-0008.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.35526942635043024</Mass>
+<CenterOfMass>-0.19500000862424663 0.0030050662750522061 0.11265174496244848</CenterOfMass>
+<Inertia>0.0062064728224621932 0.012447597024611417 0.006243252105126519 1.2318915249918033e-10 7.6882514802497086e-10 -1.5510447356914582e-14</Inertia>
+</MassProperties>
+<GeometryFile name="ETY-DR-0008_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ETY-DR-0009" uid="ETY-DR-0009*:*Default" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ETY-DR-0009.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.052198907814869813</Mass>
+<CenterOfMass>-1.214666116935332e-05 0.0060020186775336208 9.7822851362013361e-06</CenterOfMass>
+<Inertia>2.8852390269188197e-05 5.6404637663815607e-05 2.8845055610964258e-05 2.8382929511642627e-09 -1.7187676337840478e-08 -3.5253455513526081e-09</Inertia>
+</MassProperties>
+<GeometryFile name="ETY-DR-0009_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ETY-DR-0010" uid="ETY-DR-0010*:*Default" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ETY-DR-0010.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.041476367815614604</Mass>
+<CenterOfMass>-4.1517064990546334e-15 -0.0056799208159528667 0.011492559126864447</CenterOfMass>
+<Inertia>7.742073397686183e-06 1.0693306923644634e-05 1.4441121278897963e-05 -9.0868210638507264e-08 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="ETY-DR-0010_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ETY-DR-0011" uid="ETY-DR-0011*:*Default" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ETY-DR-0011.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.21394333104290283</Mass>
+<CenterOfMass>-1.1401768583312731e-09 -4.1603367775247383e-06 0.030799803575415223</CenterOfMass>
+<Inertia>0.00021416537661722351 0.00021419909741723719 0.00038679774942439123 1.5519251507769655e-08 -3.0431675935281543e-12 5.531847165391752e-12</Inertia>
+</MassProperties>
+<GeometryFile name="ETY-DR-0011_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ETY-DR-0012" uid="ETY-DR-0012*:*Default" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ETY-DR-0012.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0021208928267833185</Mass>
+<CenterOfMass>0.017247606887090424 6.6972398571329714e-16 0</CenterOfMass>
+<Inertia>2.8200732236954939e-08 1.888926702774969e-07 1.9247703840942821e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="ETY-DR-0012_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ETY-DR-0013" uid="ETY-DR-0013*:*Default" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ETY-DR-0013.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.14101552979973156</Mass>
+<CenterOfMass>0.050539659787621552 0.020753140238644635 0.02</CenterOfMass>
+<Inertia>4.6511470684031487e-05 0.00010475748493358447 0.00011288605270532969 0 0 -1.6412711578131686e-05</Inertia>
+</MassProperties>
+<GeometryFile name="ETY-DR-0013_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="J200UMA-01-10" uid="J200UMA-01-10*:*Default" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="J200UMA-01-10.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0013207621034308306</Mass>
+<CenterOfMass>-0.0014556226348338512 0.0018006989577915432 0</CenterOfMass>
+<Inertia>1.040174220778919e-07 1.0987476549501027e-07 4.1878569452981248e-08 0 0 -1.9347224286448684e-09</Inertia>
+</MassProperties>
+<GeometryFile name="J200UMA-01-10_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Rohr 8-10-adaptiv" uid="Rohr 8-10-adaptiv*:*Default" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Rohr 8-10-adaptiv.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.010120609932398631</Mass>
+<CenterOfMass>1.4201546888170288e-08 -2.3343320184983719e-09 -7.7897289419023974e-05</CenterOfMass>
+<Inertia>0.0001084767882585743 0.00010847701364339152 2.0735576274117459e-07 -1.5337343659624339e-10 -1.5453075742220193e-10 2.8979033182349569e-11</Inertia>
+</MassProperties>
+<GeometryFile name="Rohr 8-10-adaptiv_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="SAXT-104001" uid="SAXT-104001*:*Default" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="SAXT-104001.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.05741632160383988</Mass>
+<CenterOfMass>1.4669710608896387e-08 0.00022139971625397619 0.023090531124734501</CenterOfMass>
+<Inertia>2.6107790335367405e-05 4.2813788911397613e-05 4.3977455721694216e-05 8.2776261983124475e-07 -2.1711568038808421e-11 1.0688521590347771e-10</Inertia>
+</MassProperties>
+<GeometryFile name="SAXT-104001_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="SAXT-104002" uid="SAXT-104002*:*Default" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="SAXT-104002.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0074895142734109832</Mass>
+<CenterOfMass>-5.343052047448697e-07 0.00024156816645918346 0.0023215116342654605</CenterOfMass>
+<Inertia>1.2338528390427217e-06 4.2363768425764333e-06 5.2491321229223313e-06 2.3660258143337255e-09 2.6098093006573281e-11 -8.0638363389787348e-12</Inertia>
+</MassProperties>
+<GeometryFile name="SAXT-104002_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="SAXT-104004" uid="SAXT-104004*:*Default" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="SAXT-104004.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.056431859858725918</Mass>
+<CenterOfMass>0.00034352812857545698 0.00027736901817294516 0.023128597311451164</CenterOfMass>
+<Inertia>2.5830171389197615e-05 4.1369812492246405e-05 4.2731757484289081e-05 8.4683051139854575e-07 -2.3233890860193958e-07 5.4357362278896245e-09</Inertia>
+</MassProperties>
+<GeometryFile name="SAXT-104004_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="WKM-10-14" uid="WKM-10-14*:*Default" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="WKM-10-14.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.002150397842700328</Mass>
+<CenterOfMass>-2.097931421378941e-07 2.6493300454532874e-06 -4.1480578673631691e-09</CenterOfMass>
+<Inertia>8.124715560987192e-08 1.1107593467856471e-07 8.1249064621554824e-08 -2.5184229037968218e-14 -5.3115394731553039e-13 -1.1952153650461251e-15</Inertia>
+</MassProperties>
+<GeometryFile name="WKM-10-14_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="WMA-01-10-AL" uid="WMA-01-10-AL*:*Default" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="WMA-01-10-AL.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0055613194325398836</Mass>
+<CenterOfMass>-0.0047697328426927511 0.0022034753238868981 1.7340154741902359e-08</CenterOfMass>
+<Inertia>5.1081022758114166e-07 7.4383545285976442e-07 5.1724137771030612e-07 -5.4888449057819295e-13 2.4036070608475563e-13 -7.1986034865006217e-08</Inertia>
+</MassProperties>
+<GeometryFile name="WMA-01-10-AL_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="WRZ-011007" uid="WRZ-011007*:*Default" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="WRZ-011007.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00061306051580926435</Mass>
+<CenterOfMass>1.3232718250340129e-06 -0.0014188152633618798 0.00067238687461431117</CenterOfMass>
+<Inertia>9.5393638747864485e-09 5.1359001598324467e-08 5.1203289257059678e-08 1.282797161281056e-09 8.7653071124463781e-13 -2.0021961999068561e-12</Inertia>
+</MassProperties>
+<GeometryFile name="WRZ-011007_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ZSX-104001-konfig" uid="ZSX-104001-konfig*:*Default" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ZSX-104001-konfig.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.13043735714642554</Mass>
+<CenterOfMass>-2.553177669819721e-06 -0.011590640314582469 0.13496197372839741</CenterOfMass>
+<Inertia>0.00080751335083702625 0.00081907958230841818 4.1349089645843598e-05 -7.7342028918814491e-08 1.290299055977968e-11 -5.5015730377620669e-09</Inertia>
+</MassProperties>
+<GeometryFile name="ZSX-104001-konfig_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ZSY-104001" uid="ZSY-104001*:*Default" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ZSY-104001.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.039291524729025439</Mass>
+<CenterOfMass>-8.6834568688730461e-08 0.0027510153843762724 -3.599416520671957e-08</CenterOfMass>
+<Inertia>3.254344425493599e-05 4.9027096810208155e-05 1.671205970195146e-05 -1.8154798194304977e-15 -1.0040597460920514e-11 2.8822725091013869e-12</Inertia>
+</MassProperties>
+<GeometryFile name="ZSY-104001_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ZTY-104004" uid="ZTY-104004*:*Default" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ZTY-104004.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.081692399877114602</Mass>
+<CenterOfMass>-0.013988675639811767 2.022073920473939e-08 0.017901270730357948</CenterOfMass>
+<Inertia>1.5234834530409739e-05 8.2377730829708275e-05 9.1721908694942763e-05 5.8173609695098277e-12 -1.6397866933123032e-06 4.2140520344192069e-11</Inertia>
+</MassProperties>
+<GeometryFile name="ZTY-104004_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ZTY-104010" uid="ZTY-104010*:*Default" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ZTY-104010.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.034179747629736176</Mass>
+<CenterOfMass>0 -0.0067106804574244491 0.0053091946459844185</CenterOfMass>
+<Inertia>1.4984131106444558e-05 1.0029298623135092e-05 2.4479889114639017e-05 -3.8955644989489364e-08 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="ZTY-104010_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ZWY-104001" uid="ZWY-104001*:*Default" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ZWY-104001.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.050344480484908735</Mass>
+<CenterOfMass>0 3.288581613099253e-06 0.0039852563744401884</CenterOfMass>
+<Inertia>4.0028069266931279e-05 2.0938167832258658e-05 6.0427539929774646e-05 -2.4409831451007996e-12 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="ZWY-104001_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="_D_KARM-10 CL KDGM Kopfteil" uid="_D_KARM-10 CL KDGM Kopfteil*:*Default" version="107">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="_D_KARM-10 CL KDGM Kopfteil.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0059481622940655322</Mass>
+<CenterOfMass>-4.0123802197957971e-08 -0.0095952226556251536 -5.5650715980270421e-09</CenterOfMass>
+<Inertia>1.576756795173118e-06 3.5630069750946165e-07 1.8537809641788213e-06 8.2544360310162924e-13 -7.8435391442743016e-14 9.3624939775990256e-12</Inertia>
+</MassProperties>
+<GeometryFile name="_D_KARM-10 CL KDGM Kopfteil_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
